@@ -31,6 +31,7 @@ const Login = () => {
     const { email, password } = Object.fromEntries(formData);
     try {
       await signInWithEmailAndPassword(auth, email, password);
+      toast.success("Welcome");
     } catch (err) {
       console.log(err);
       toast.error(err.message);

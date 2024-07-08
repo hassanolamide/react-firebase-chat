@@ -7,7 +7,9 @@
 }
 
 body{
-  background-image: url("/bg.jpg");
+  background-image: url("/brandon-morgan-3qucB7U2l7I-unsplash.jpg");
+  background-position: center;
+  object-fit: cover;
   display: flex;
   align-items: center;
   justify-content: center;

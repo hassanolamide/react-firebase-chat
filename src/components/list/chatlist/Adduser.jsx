@@ -87,7 +87,7 @@ const Adduser = ({ onAddChat }) => {
 
       setSuccessMessage('User added successfully!');
       setErrorMessage('');
-      setUser(null); // Clear the selected user
+      setUser(null); 
       return true;
     } catch (err) {
       console.error("Error in handleAdd:", err);
